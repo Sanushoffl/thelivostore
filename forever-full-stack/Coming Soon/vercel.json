@@ -1,12 +1,7 @@
 {
   "version": 2,
-  "public": "public",
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "echo 'static build'",
+  "outputDirectory": "public",
   "routes": [
     {
       "src": "/assets/(.*)",
