@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "echo Building",
+  "outputDirectory": ".",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.html"
+      "dest": "/index.html"
     }
   ]
 }
