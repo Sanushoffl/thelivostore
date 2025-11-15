@@ -10,5 +10,6 @@ export default defineConfig({
     minify: 'terser'
   },
   root: '.',
-  publicDir: 'public'
+  publicDir: 'public',
+  base: '/'
 })
