@@ -211,9 +211,150 @@
                 font-size: 1.5rem;
             }
         }
+
+        /* Flower decorations */
+        .flower {
+            position: absolute;
+            font-size: 3rem;
+            opacity: 0.15;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .flower-1 {
+            top: 10%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+
+        .flower-2 {
+            top: 15%;
+            right: 8%;
+            font-size: 2.5rem;
+            animation-delay: 1s;
+        }
+
+        .flower-3 {
+            bottom: 15%;
+            left: 10%;
+            font-size: 2.8rem;
+            animation-delay: 2s;
+        }
+
+        .flower-4 {
+            bottom: 10%;
+            right: 5%;
+            font-size: 3.2rem;
+            animation-delay: 1.5s;
+        }
+
+        .flower-5 {
+            top: 50%;
+            left: 2%;
+            font-size: 2.2rem;
+            animation-delay: 0.5s;
+        }
+
+        .flower-6 {
+            top: 45%;
+            right: 2%;
+            font-size: 2.7rem;
+            animation-delay: 2.5s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-20px) rotate(5deg);
+            }
+        }
+
+        @keyframes float-slow {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-25px) rotate(-8deg);
+            }
+        }
+
+        .flower-7 {
+            top: 8%;
+            left: 15%;
+            font-size: 2.4rem;
+            animation: float-slow 7s ease-in-out infinite;
+            animation-delay: 0.8s;
+        }
+
+        .flower-8 {
+            top: 12%;
+            right: 12%;
+            font-size: 2.6rem;
+            animation: float-slow 7s ease-in-out infinite;
+            animation-delay: 1.2s;
+        }
+
+        .flower-9 {
+            bottom: 20%;
+            left: 8%;
+            font-size: 2.3rem;
+            animation: float-slow 7s ease-in-out infinite;
+            animation-delay: 0.3s;
+        }
+
+        .flower-10 {
+            bottom: 25%;
+            right: 10%;
+            font-size: 2.5rem;
+            animation: float-slow 7s ease-in-out infinite;
+            animation-delay: 2.1s;
+        }
+
+        .flower-11 {
+            top: 60%;
+            left: 1%;
+            font-size: 2.2rem;
+            animation: float-slow 7s ease-in-out infinite;
+            animation-delay: 1.7s;
+        }
+
+        .flower-12 {
+            top: 55%;
+            right: 1%;
+            font-size: 2.8rem;
+            animation: float-slow 7s ease-in-out infinite;
+            animation-delay: 3s;
+        }
+
+        /* Decorative accents */
+        .accent-dot {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.08;
+        }
+
+        .accent-line {
+            position: absolute;
+            background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+            opacity: 0.3;
+        }
     </style>
 </head>
 <body>
+    <div class="flower flower-1">🌸</div>
+    <div class="flower flower-2">🌼</div>
+    <div class="flower flower-3">🌺</div>
+    <div class="flower flower-4">🌸</div>
+    <div class="flower flower-5">🌻</div>
+    <div class="flower flower-6">🌷</div>
+    <div class="flower flower-7">🌷</div>
+    <div class="flower flower-8">🌺</div>
+    <div class="flower flower-9">🌸</div>
+    <div class="flower flower-10">🌼</div>
+    <div class="flower flower-11">🌻</div>
+    <div class="flower flower-12">🌷</div>
+    
     <div class="container">
         <div class="logo">LIVO</div>
         <h1>Coming Soon</h1>
